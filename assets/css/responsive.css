@@ -1,0 +1,161 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://www.Xpeedstudio.com
+*/
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 1199px) {
+    .btn-larg{
+        width:150px;
+    }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    .comunicacion{
+       
+    background: url(../images/servicios/comunicacionresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.ambiental{
+       
+    background: url(../images/servicios/ambientalresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+.finanzas{
+       
+    background: url(../images/servicios/finanzasresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+.asesoria{
+       
+    background: url(../images/servicios/asesoriaresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+.proyectos{
+       
+    background: url(../images/servicios/proyectosresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+.empresarial{
+       
+    background: url(../images/servicios/empresarialresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+.construccion{
+       
+    background: url(../images/servicios/construccionresponsive.png) no-repeat center center;
+    background-size: 100%;
+}
+
+
+    .list-inline>li {
+        display: inline-block;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .main_service_area .single_service .service_btn {
+    
+    }
+
+}
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 90%;
+    }
+    .cd-header a.brand-logo img {
+        width: 10%;
+    }
+    #main-nav li a{
+        padding: 2% 10%;
+    }
+    .single_abt{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .main_team_area .single_team{
+        text-align: center;
+    }
+.main_about_area .single_about_right_img{
+    border: 6px solid rgb(0, 0, 0);
+    padding: 20px 0px 20px 20px;
+    margin-right: -20%;
+}
+
+.main_home {
+    padding: 5px 20px 170px 20px;
+    position: relative;
+}
+
+.main_home img{
+    width: 90%;
+}
+
+.home_socail_bar{
+ pointer-events: none;
+    opacity: 0.0;
+}
+
+.main_about_area .single_about_right_img img{
+    width: 0;
+    height: 0;
+}
+    .main_service_area .head_title{
+    width:80%;
+    margin: 10px auto;
+    text-align: center;
+    padding:90px 5px;
+}
+    .main_portfolio_content .single_portfolio.single_portfolio_1st{
+        margin-bottom:30px;
+    }
+   
+    .single_map_bottom {
+        text-align: center;
+    }
+    .main_footer .footer_logo{
+        width: 50%;
+        margin:40px auto;
+        text-align: center;
+    }
+    .main_footer .footer_socail{
+        text-align: center;
+    }
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 85%;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    html {
+        font-size: 70.5%;
+    }
+
+}
+
+
+
+
+
+
+
